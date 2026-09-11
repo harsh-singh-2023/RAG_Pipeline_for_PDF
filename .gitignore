@@ -1,0 +1,16 @@
+# Data — don't commit your PDFs or the vector DB
+data/pdf/*
+!data/pdf/.gitkeep
+data/vector_store/
+
+# API keys / secrets
+.env
+*.key
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS
+.DS_Store

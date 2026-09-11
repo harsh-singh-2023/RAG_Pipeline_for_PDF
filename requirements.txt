@@ -1,0 +1,10 @@
+langchain-community
+langchain-text-splitters
+langchain-core
+langchain-groq
+groq
+pypdf
+pymupdf
+sentence-transformers
+chromadb
+scikit-learn
