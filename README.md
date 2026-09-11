@@ -51,8 +51,7 @@ Groq LLM (openai/gpt-oss-20b) + prompt template → grounded answer
 
 ### 1. Clone the repo
 ```bash
-git clone https://github.com/<your-username>/<repo-name>.git
-cd <repo-name>
+git clone https://github.com/harsh-singh-2023/RAG_Pipeline_for_PDF.git
 ```
 
 ### 2. Install dependencies
