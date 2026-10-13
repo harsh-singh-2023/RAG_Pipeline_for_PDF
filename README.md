@@ -15,27 +15,9 @@ An end-to-end Retrieval-Augmented Generation (RAG) pipeline that lets you chat w
 
 ## Architecture
 
-```
-PDF files
-   │
-   ▼
-PyMuPDFLoader (load per-page documents)
-   │
-   ▼
-RecursiveCharacterTextSplitter (chunk_size=1000, overlap=200)
-   │
-   ▼
-SentenceTransformer (all-MiniLM-L6-v2) → embeddings
-   │
-   ▼
-ChromaDB (persistent, cosine similarity)
-   │
-   ▼
-Query → embed → retrieve top-k → filter by similarity threshold
-   │
-   ▼
-Groq LLM (openai/gpt-oss-20b) + prompt template → grounded answer
-```
+<img width="2532" height="7356" alt="diagram (1)" src="https://github.com/user-attachments/assets/543fc3c5-2456-4aec-83c4-0b811b2620ec" />
+
+
 
 ## Tech Stack
 
